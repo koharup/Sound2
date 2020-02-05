@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         drumImageView.setOnClickListener {
             //音を巻き戻す
             drumSound.seekTo(0)
+            drumSound.start()
 
         }
     }
